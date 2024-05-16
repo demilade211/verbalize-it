@@ -74,10 +74,11 @@ const Con = styled.section`
             }
             p{ 
                 color: rgba(0, 0, 0, 1); 
-                font-size: 20px;
+                font-family: "Raleway", sans-serif;
+                font-size: 18px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: normal;   
+                line-height: 36px;   
                 @media (max-width: 1200px) {  
                     font-size: 14px; 
                 }
@@ -101,7 +102,8 @@ const Con = styled.section`
                 }
                 li{
                     color: rgba(0, 0, 0, 1); 
-                    font-size: 20px;
+                    font-family: "Raleway", sans-serif;
+                    font-size: 18px;
                     font-style: normal;
                     font-weight: 400;
                     line-height: normal; 

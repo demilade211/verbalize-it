@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from "styled-components";
 
-const AuthInput = ({ place, withIcon, image, type, onChange, name, value, errors }) => {
+const SearchInput = ({ place, withIcon, image, type, onChange, name, value, errors }) => {
   return (
     <InputLabelCon>
       <InputCon>
@@ -14,7 +14,7 @@ const AuthInput = ({ place, withIcon, image, type, onChange, name, value, errors
   )
 }
 const InputLabelCon = styled.div`
-    margin-bottom:30px;
+    margin-bottom:0px;
 `;
 const ErrorMessage = styled.div` 
     color: red; 
@@ -27,11 +27,11 @@ const ErrorMessage = styled.div`
 
 const InputCon = styled.div`
     width: 100%;
-    height:62px;
+    height:45px;
     display:flex; 
     align-items:center;
-    border-radius: 20px;
-    background: rgba(245, 134, 52, 0.23);   
+    border-radius: 40px;
+    background: rgba(245, 245, 245, 1);   
     padding:10px 20px; 
     img{
         margin-right:10px;
@@ -50,14 +50,14 @@ const InputCon = styled.div`
       font-weight: 400;
       line-height: 16px; /* 100% */
       &::placeholder {
-        color: var(--pure-black, #000); 
+        color: rgba(113, 113, 113, 1); 
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 16px; /* 100% */
+        line-height: 36px; /* 100% */
       }
 
     }
 `;
 
-export default AuthInput
+export default SearchInput

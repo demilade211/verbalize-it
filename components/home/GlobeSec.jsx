@@ -7,7 +7,7 @@ const GlobeSec = () => {
             <h1 className="text-[30px] md:text-[48px] text-[rgb(0,0,0)] font-bold font-Raleway leading-normal md:leading-[80px] text-center mb-4">
                 Learn a new language the fun way
             </h1>
-            <p className="text-[20px] md:text-[22px] text-[rgb(0,0,0)] mb-16 text-center font-Raleway">Reach your language goals fast with the world`s #1 education app</p>
+            <p className="text-[16px] md:text-[22px] text-[rgb(0,0,0)] mb-16 text-center font-Raleway">Reach your language goals fast with the world`s #1 education app</p>
 
             <div className="flex items-center mb-4">
                 <img className=" " src="/images/home/globe.png" alt="img" />
@@ -46,7 +46,7 @@ const Con = styled.section`
   background:rgba(255, 255, 255, 1);   
   padding: 40px 190px;
   @media (max-width: 1200px) { 
-    padding: 40px 30px;
+    padding: 30px 30px;
   } 
 `;
 

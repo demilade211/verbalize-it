@@ -23,7 +23,9 @@ const Btn = styled.button`
     font-weight: 500;
     font-size: 16px; 
     transition: 300ms ease-in-out;
-
+    @media (max-width: 1200px) {  
+      font-size: 11px; 
+    }
     &:hover{
       transform: scale(1.05);
     }

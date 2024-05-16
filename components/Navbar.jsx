@@ -151,6 +151,7 @@ const Bottom = styled.div`
                 list-style-type:none;
                 margin-bottom:30px;
                 color: rgba(0, 0, 0, 1);
+                font-family: "Raleway", sans-serif;
                 font-size: 20px;
                 font-style: normal;
                 font-weight: 700;
